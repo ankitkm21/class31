@@ -62,7 +62,7 @@ function setup()
   button.size(50,50)
   button.mouseClicked(drop)
 
-  blink.frameDelay=60;
+  
   eat.frameDelay=60;
   sad.frameDelay=60;
 
@@ -94,7 +94,7 @@ function draw()
      bunny.changeAnimation("crying",sad);
 
   }
-
+blink.frameDelay=60;
  
    drawSprites();
 }
